@@ -7,6 +7,7 @@ scripts/color_personality_generator.py
 scripts/human_vs_ai_scorer.py
 scripts/microcopy_humanizer.py
 scripts/project_dna_analyzer.py
+scripts/pulse_viz_generator.py
 scripts/quirk_injector.py
 scripts/spring_physics_calculator.py
 sufians_frontend_designer.egg-info/PKG-INFO

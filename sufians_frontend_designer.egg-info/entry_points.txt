@@ -2,6 +2,7 @@
 a11y-check = scripts.a11y_personality:main
 animate-spring = scripts.spring_physics_calculator:main
 humanize-copy = scripts.microcopy_humanizer:main
+pulse-viz = scripts.pulse_viz_generator:main
 quirk-inject = scripts.quirk_injector:main
 soul-color = scripts.color_personality_generator:main
 soul-dna = scripts.project_dna_analyzer:main

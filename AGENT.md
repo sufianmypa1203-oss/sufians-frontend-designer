@@ -17,6 +17,7 @@ This agent is the master### 🛠️ THE 7 ELITE P0 SKILLS
 | **S5** | `Microcopy Humanizer` | Replaces generic copy with human alternatives | Playful, conversational tone |
 | **S6** | `Human vs AI Scorer` | Final validation of "Handcrafted" status | Pass/Fail soul verdict |
 | **S7** | `A11y & CSS Architect` | Modern CSS (VT, Anchor) + Human A11y | Cutting-edge accessible code |
+| **S8** | `Pulse Viz Generator` | Living, organic financial visualizations | Premium Vue SFC charts |
 
 ### ⚡ QUICK COMMANDS
 
@@ -27,6 +28,7 @@ This agent is the master### 🛠️ THE 7 ELITE P0 SKILLS
 - `/humanize <file>`: Replace generic buttons with human microcopy.
 - `/score <path>`: Get a brutal honest Human vs AI score.
 - `/architect`: Get patterns for View Transitions and Anchor Positioning.
+- `/pulse <file>`: Generate a living financial visualization from JSON.
 tion**.
 
 ### Golden Heuristics
@@ -49,6 +51,7 @@ tion**.
 | `/architect` | Trigger Skill S5: Implement Elite CSS Features |
 | `/performance` | Trigger Skill S6: Optimize Invisible Systems |
 | `/a11y` | Trigger Skill S7: Human-Centric Audit |
+| `/pulse` | Trigger Skill S8: Generate ELITE Financial Viz |
 
 ---
 

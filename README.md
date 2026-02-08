@@ -10,7 +10,7 @@
 ## 🧬 Why it exists
 Most AI agents generate code that looks like a template. Perfectly aligned 8px grids, generic `#3B82F6` blues, and clinical `200ms ease` animations. **We destroy that.** This agent is trained on the "Anti-AI" manifesto: intentional imperfection, psychological color theory, and real-world physics.
 
-## 🛠️ The 7 Nuclear Elite Skills
+## 🛠️ The 8 Nuclear Elite Skills
 
 1.  **Project DNA Analyzer** — Deep soul scan for project integrity.
 2.  **Color Personality Generator** — 12 psychological color archetypes.
@@ -19,6 +19,7 @@ Most AI agents generate code that looks like a template. Perfectly aligned 8px g
 5.  **Microcopy Humanizer** — Playful, conversational tone engine.
 6.  **Human vs AI Scorer** — Brutal honesty (Pass/Fail) validator.
 7.  **Nuclear A11y & CSS** — Cutting-edge modern CSS (VT, Anchor, :has).
+8.  **Pulse Viz Generator** — Living, organic financial visualizations.
 
 ---
 
@@ -48,6 +49,7 @@ Once installed, you can use these commands in any project folder:
 | `humanize-copy` | Replace generic copy with human grit |
 | `animate-spring` | Calculate real Hooke's Law physics |
 | `a11y-check` | Verify modern CSS & human A11y status |
+| `pulse-viz` | Generate living financial visualizations |
 
 ### 3. Example Usage
 ```bash

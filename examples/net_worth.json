@@ -1,0 +1,14 @@
+[
+  {"date": "2024-01", "value": 50000, "category": "savings"},
+  {"date": "2024-02", "value": 52000, "category": "savings"},
+  {"date": "2024-03", "value": 51500, "category": "savings"},
+  {"date": "2024-04", "value": 54000, "category": "savings"},
+  {"date": "2024-05", "value": 56500, "category": "savings"},
+  {"date": "2024-06", "value": 58000, "category": "savings"},
+  {"date": "2024-07", "value": 57000, "category": "savings"},
+  {"date": "2024-08", "value": 60000, "category": "savings"},
+  {"date": "2024-09", "value": 62500, "category": "savings"},
+  {"date": "2024-10", "value": 64000, "category": "savings"},
+  {"date": "2024-11", "value": 66500, "category": "savings"},
+  {"date": "2024-12", "value": 70000, "category": "savings"}
+]

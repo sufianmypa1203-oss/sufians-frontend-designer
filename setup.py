@@ -8,7 +8,8 @@ setup(
     packages=find_packages(),
     py_modules=["scripts.project_dna_analyzer", "scripts.color_personality_generator", 
                 "scripts.spring_physics_calculator", "scripts.quirk_injector", 
-                "scripts.microcopy_humanizer", "scripts.human_vs_ai_scorer", "scripts.a11y_personality"],
+                "scripts.microcopy_humanizer", "scripts.human_vs_ai_scorer", "scripts.a11y_personality",
+                "scripts.pulse_viz_generator"],
     install_requires=[],
     entry_points={
         "console_scripts": [
@@ -19,6 +20,7 @@ setup(
             "humanize-copy=scripts.microcopy_humanizer:main",
             "animate-spring=scripts.spring_physics_calculator:main",
             "a11y-check=scripts.a11y_personality:main",
+            "pulse-viz=scripts.pulse_viz_generator:main",
         ],
     },
 )
