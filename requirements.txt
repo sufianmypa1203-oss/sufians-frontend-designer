@@ -1,0 +1,3 @@
+# Minimal requirements for the Elite Frontend Designer
+# Most logic uses standard library (re, math, json)
+# Framer Motion / UI logic lives in the user's project

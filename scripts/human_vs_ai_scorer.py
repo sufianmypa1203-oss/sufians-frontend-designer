@@ -49,9 +49,14 @@ class HumanVsAIScorer:
         
         return self.scorecard
 
-if __name__ == "__main__":
-    if len(sys.argv) < 2: sys.exit(1)
+def main():
+    if len(sys.argv) < 2: 
+        print("Usage: soul-score <project_path>")
+        sys.exit(1)
     scorer = HumanVsAIScorer(Path(sys.argv[1]))
     card = scorer.score()
     print(f"SCORE: {card.verdict}")
     print(f"Colors: {card.color_score} | Spacing: {card.spacing_score} | Personality: {card.personality_score}")
+
+if __name__ == "__main__":
+    main()

@@ -245,10 +245,13 @@ class EliteAnalyzer:
             if user_input.lower() == 'y':
                 print(f"  {G}Task added to designer backlog.{W}")
 
-if __name__ == "__main__":
+def main():
     target = sys.argv[1] if len(sys.argv) > 1 else "."
     analyzer = EliteAnalyzer(target)
     analyzer.nuclear_scan()
     
     if "--interactive" in sys.argv:
         analyzer.interactive_triage()
+
+if __name__ == "__main__":
+    main()

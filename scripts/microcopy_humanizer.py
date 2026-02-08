@@ -40,10 +40,15 @@ class MicrocopyHumanizer:
                 self.replacements_made.append((generic, human))
         return modified_code
 
-if __name__ == "__main__":
-    if len(sys.argv) < 2: sys.exit(1)
+def main():
+    if len(sys.argv) < 2: 
+        print("Usage: humanize-copy <file>")
+        sys.exit(1)
     input_path = Path(sys.argv[1])
     code = input_path.read_text()
     humanizer = MicrocopyHumanizer(code, Tone.PLAYFUL)
     print(humanizer.humanize())
     print(f"\nReplacements: {len(humanizer.replacements_made)}")
+
+if __name__ == "__main__":
+    main()

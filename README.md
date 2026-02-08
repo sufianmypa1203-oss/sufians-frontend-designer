@@ -22,24 +22,43 @@ Most AI agents generate code that looks like a template. Perfectly aligned 8px g
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Installation & CLI Usage
 
-### 1. Installation
-Simply copy the `sufians-frontend-designer` folder to your agents directory. 
+### 1. Global Installation
+You can install the **Nuclear Toolkit** globally to access the elite design commands from anywhere in your terminal.
 
-### 2. Basic Workflow
 ```bash
-# Analyze your current project soul
-python scripts/project-dna-analyzer.py ./src
+# Clone the repo
+git clone https://github.com/sufianmypa1203-oss/sufians-frontend-designer.git
+cd sufians-frontend-designer
 
-# Generate a high-personality design system
-python scripts/color-personality-generator.py rustic --export css
+# Install globally
+pip install .
+```
 
-# Inject character into a sterile component
-python scripts/quirk-injector.py component.tsx --level mild --all
+### 2. Available Global Commands
+Once installed, you can use these commands in any project folder:
 
-# The final truth detector
-python scripts/human-vs-ai-scorer.py .
+| Command | Purpose |
+|---------|---------|
+| `soul-dna` | Deep scan project for design integrity |
+| `soul-score` | Get a "Handcrafted vs AI" verdict |
+| `soul-color` | Generate psychological color palettes |
+| `quirk-inject` | Inject intentional imperfections into a file |
+| `humanize-copy` | Replace generic copy with human grit |
+| `animate-spring` | Calculate real Hooke's Law physics |
+| `a11y-check` | Verify modern CSS & human A11y status |
+
+### 3. Example Usage
+```bash
+# Score your current folder
+soul-score .
+
+# Generate a Rustic palette for a new feature
+soul-color rustic --export css
+
+# Inject quirks into a React component
+quirk-inject Button.tsx
 ```
 
 ---

@@ -77,11 +77,16 @@ class QuirkInjector:
             self.quirks_applied.append(q)
         return modified_code
 
-if __name__ == "__main__":
-    if len(sys.argv) < 2: sys.exit(1)
+def main():
+    if len(sys.argv) < 2: 
+        print("Usage: quirk-inject <file>")
+        sys.exit(1)
     input_file = Path(sys.argv[1])
     code = input_file.read_text()
     injector = QuirkInjector(code)
     modified = injector.inject_quirks([QuirkType.ROTATION, QuirkType.IRREGULAR_BORDER, QuirkType.IRREGULAR_PADDING])
     print(modified)
     print(f"\nApplied {len(injector.quirks_applied)} quirks.")
+
+if __name__ == "__main__":
+    main()

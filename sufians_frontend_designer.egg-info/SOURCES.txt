@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+scripts/__init__.py
+scripts/a11y_personality.py
+scripts/color_personality_generator.py
+scripts/human_vs_ai_scorer.py
+scripts/microcopy_humanizer.py
+scripts/project_dna_analyzer.py
+scripts/quirk_injector.py
+scripts/spring_physics_calculator.py
+sufians_frontend_designer.egg-info/PKG-INFO
+sufians_frontend_designer.egg-info/SOURCES.txt
+sufians_frontend_designer.egg-info/dependency_links.txt
+sufians_frontend_designer.egg-info/entry_points.txt
+sufians_frontend_designer.egg-info/top_level.txt

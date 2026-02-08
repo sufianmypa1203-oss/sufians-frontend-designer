@@ -241,9 +241,9 @@ class ColorGenerator:
         ]
         return "\n".join(lines)
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) < 2:
-        print("Usage: python color_personality_generator.py <personality>")
+        print("Usage: soul-color <personality> [--export css]")
         sys.exit(1)
     try:
         p = Personality(sys.argv[1].lower())
@@ -256,3 +256,6 @@ if __name__ == "__main__":
             print(f"Surface: {palette.surface}")
     except ValueError:
         print(f"Unknown personality: {sys.argv[1]}")
+
+if __name__ == "__main__":
+    main()

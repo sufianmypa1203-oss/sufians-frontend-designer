@@ -58,7 +58,7 @@ class SpringPhysics:
             "type": "underdamped" if zeta < 1 else "critical" if zeta == 1 else "overdamped"
         }
 
-if __name__ == "__main__":
+def main():
     preset_name = sys.argv[1] if len(sys.argv) > 1 else "snappy"
     config = PRESETS.get(preset_name, PRESETS['snappy'])
     analysis = SpringPhysics.analyze(config)
@@ -66,3 +66,6 @@ if __name__ == "__main__":
     print(f"Stiffness: {config.stiffness} | Damping: {config.damping} | Mass: {config.mass}")
     print(f"Ratio: {analysis['damping_ratio']} | Settle: {analysis['settle_time_ms']}ms")
     print(json.dumps({"framer": {"stiffness": config.stiffness, "damping": config.damping, "mass": config.mass}}, indent=2))
+
+if __name__ == "__main__":
+    main()
