@@ -1,0 +1,18 @@
+{
+    "name": "Sufian's Frontend Designer",
+    "version": "2.0.0-nuclear",
+    "capabilities": [
+        "DNA Analysis",
+        "Psychology-driven Color Generation",
+        "Physics-based Motion",
+        "Surgical Quirk Injection",
+        "Microcopy Humanization",
+        "Handcrafted Soul Scoring"
+    ],
+    "preferences": {
+        "grid_breakage": true,
+        "irregular_timing": true,
+        "human_aria": true,
+        "minimal_ai_smell": true
+    }
+}
