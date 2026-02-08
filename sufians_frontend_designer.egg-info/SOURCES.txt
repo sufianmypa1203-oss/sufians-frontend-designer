@@ -10,6 +10,7 @@ scripts/project_dna_analyzer.py
 scripts/pulse_viz_generator.py
 scripts/quirk_injector.py
 scripts/spring_physics_calculator.py
+scripts/sync_ui_orchestrator.py
 sufians_frontend_designer.egg-info/PKG-INFO
 sufians_frontend_designer.egg-info/SOURCES.txt
 sufians_frontend_designer.egg-info/dependency_links.txt

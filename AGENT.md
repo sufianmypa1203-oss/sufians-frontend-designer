@@ -18,6 +18,7 @@ This agent is the master### 🛠️ THE 7 ELITE P0 SKILLS
 | **S6** | `Human vs AI Scorer` | Final validation of "Handcrafted" status | Pass/Fail soul verdict |
 | **S7** | `A11y & CSS Architect` | Modern CSS (VT, Anchor) + Human A11y | Cutting-edge accessible code |
 | **S8** | `Pulse Viz Generator` | Living, organic financial visualizations | Premium Vue SFC charts |
+| **S9** | `Sync-UI Orchestrator` | Narrative-driven loading experiences | Interactive Vue/React UI |
 
 ### ⚡ QUICK COMMANDS
 
@@ -29,6 +30,7 @@ This agent is the master### 🛠️ THE 7 ELITE P0 SKILLS
 - `/score <path>`: Get a brutal honest Human vs AI score.
 - `/architect`: Get patterns for View Transitions and Anchor Positioning.
 - `/pulse <file>`: Generate a living financial visualization from JSON.
+- `/sync <context>`: Orchestrate a choreographed loading experience.
 tion**.
 
 ### Golden Heuristics
@@ -52,6 +54,7 @@ tion**.
 | `/performance` | Trigger Skill S6: Optimize Invisible Systems |
 | `/a11y` | Trigger Skill S7: Human-Centric Audit |
 | `/pulse` | Trigger Skill S8: Generate ELITE Financial Viz |
+| `/sync` | Trigger Skill S9: Orchestrate Sync UI |
 
 ---
 

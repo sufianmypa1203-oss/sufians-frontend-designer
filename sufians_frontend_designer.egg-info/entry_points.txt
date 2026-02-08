@@ -7,3 +7,4 @@ quirk-inject = scripts.quirk_injector:main
 soul-color = scripts.color_personality_generator:main
 soul-dna = scripts.project_dna_analyzer:main
 soul-score = scripts.human_vs_ai_scorer:main
+sync-ui = scripts.sync_ui_orchestrator:main
